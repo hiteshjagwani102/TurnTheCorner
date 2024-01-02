@@ -4,7 +4,7 @@ import styles from "../styles/Footer.module.scss";
 const Footer = () => {
     return (
         <div className={styles.footer}>
-            <h4>© All Rights Reserved.</h4>
+            <h4>© Copyright Trademark. All Rights Reserved.</h4>
         </div>
     );
 };

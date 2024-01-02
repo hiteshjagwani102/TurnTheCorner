@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const Testimonials = () => {
     return (
-        <div className={styles.testimonials}>
+        <div id="testimonials" className={styles.testimonials}>
             <h2>Testimonials.</h2>
             <Carousel
                 showArrows={false}

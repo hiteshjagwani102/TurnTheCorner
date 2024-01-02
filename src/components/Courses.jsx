@@ -6,7 +6,7 @@ import finance from "../assets/pexels-pixabay-53621.jpg";
 
 const Courses = () => {
     return (
-        <div className={styles.courses}>
+        <div id="courses" className={styles.courses}>
             <h3>Courses we offer.</h3>
             <div className={styles.list}>
                 <div className={styles.box}>

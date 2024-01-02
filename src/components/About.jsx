@@ -3,7 +3,7 @@ import styles from "../styles/About.module.scss";
 import education from "../assets/city-committed-education-collage-concept.jpg";
 
 const About = () => (
-    <div className={styles.about}>
+    <section id="about" className={styles.about}>
         <div className={styles.details}>
             <h3>About us.</h3>
             <p>
@@ -25,7 +25,7 @@ const About = () => (
         <div className={styles.image}>
             <img src={education} alt="education"></img>
         </div>
-    </div>
+    </section>
 );
 
 export default About;

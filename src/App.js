@@ -5,9 +5,11 @@ import Courses from "./components/Courses.jsx";
 import Testimonials from "./components/Testimonials.jsx";
 import Footer from "./components/Footer.jsx";
 import Instructors from "./components/Instructors.jsx";
+import Navbar from "./components/Navbar.jsx";
 function App() {
     return (
         <div className={styles.app}>
+            <Navbar />
             <Hero />
             <About />
             <Courses />

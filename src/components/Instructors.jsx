@@ -6,7 +6,7 @@ import financeInstructor from "../assets/instructor3.jpg";
 
 const Instructors = () => {
     return (
-        <div className={styles.instructors}>
+        <div id="instructors" className={styles.instructors}>
             <h3>Meet our Instructors.</h3>
             <div className={styles.list}>
                 <div className={styles.box}>

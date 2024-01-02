@@ -1,0 +1,46 @@
+.hero {
+    position: relative; // Set position to relative so that ::before is positioned relative to the body
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 50px;
+    background-size: cover;
+    background-image: url("../assets/book-with-green-board-background.jpg");
+    gap: 30px;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    h2 {
+        z-index: 1;
+        font-size: 64px;
+        color: rgb(216, 216, 216);
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    p {
+        z-index: 1;
+        font-size: 24px;
+        color: rgb(216, 216, 216);
+        font-weight: 200;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    button {
+        z-index: 1;
+        width: fit-content;
+        padding: 10px 35px;
+        border-radius: 8px;
+        border: none;
+        font-size: 20px;
+        background-color: rgb(43, 138, 176);
+        color: white;
+    }
+}

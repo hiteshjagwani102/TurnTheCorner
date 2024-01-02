@@ -1,0 +1,32 @@
+.testimonials {
+    min-height: 100vh;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 100px 80px;
+
+    h2 {
+        font-size: 48px;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+
+        p {
+            font-size: 24px;
+            width: 100%;
+            line-height: 40px;
+            text-align: center;
+
+            span {
+                font-size: 48px;
+            }
+        }
+    }
+}

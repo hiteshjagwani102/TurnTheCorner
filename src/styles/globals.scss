@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel-root {
+    width: 100%;
+}
+
+.dot {
+    background: black !important;
+}
+
+.carousel-slider {
+    overflow: visible !important;
+}
+
+.control-dots {
+    margin: -40px 0 !important;
+}

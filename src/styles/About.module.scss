@@ -1,0 +1,43 @@
+.about {
+    min-height: 100vh;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: "Josefin Sans", sans-serif;
+
+    .details {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+        color: rgb(65, 65, 65);
+        width: 600px;
+        gap: 40px;
+        h3 {
+            font-size: 48px;
+        }
+        p {
+            width: 100%;
+            font-weight: 200;
+            font-size: 16px;
+            word-spacing: 0.5px;
+        }
+    }
+
+    img {
+        width: 600px;
+        border-radius: 8px;
+    }
+
+    @media screen and (max-width: 700px) {
+        gap: 50px;
+        img {
+            width: 100%;
+        }
+    }
+}

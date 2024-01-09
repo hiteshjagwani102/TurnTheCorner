@@ -22,7 +22,7 @@ const Testimonials = () => {
                         landscapes. Highly recommended for anyone serious about
                         cybersecurity.<span>❞</span>
                     </p>
-                    <h3>Yukti Sharma</h3>
+                    <h3>Ananya Sharma</h3>
                 </div>
                 <div className={styles.box}>
                     <p>
@@ -33,7 +33,7 @@ const Testimonials = () => {
                         must for anyone eager to dive into the exciting world of
                         artificial intelligence.<span>❞</span>
                     </p>
-                    <h3>Ramesh Patel</h3>
+                    <h3>Rohit Patel</h3>
                 </div>
                 <div className={styles.box}>
                     <p>
@@ -45,7 +45,7 @@ const Testimonials = () => {
                         Truly a valuable investment in my financial education.
                         <span>❞</span>
                     </p>
-                    <h3>Garvit Mehta</h3>
+                    <h3>Priya Mehta</h3>
                 </div>
             </Carousel>
         </div>

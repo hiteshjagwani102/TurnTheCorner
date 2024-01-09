@@ -4,7 +4,7 @@
     width: 100%;
     background-color: black;
     opacity: 0.8;
-    height: 80px;
+    height: 40px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -75,11 +75,8 @@
             text-decoration: none;
         }
     }
-     
+
     .hidden {
         display: none;
-    }
-    .logo{
-        img{width: 70px};
     }
 }

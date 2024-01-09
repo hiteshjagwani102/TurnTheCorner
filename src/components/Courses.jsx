@@ -10,7 +10,7 @@ const Courses = () => {
             <h3>Courses we offer.</h3>
             <div className={styles.list}>
                 <div className={styles.box}>
-                    <img src={cyberSecurity} alt="image"></img>
+                    <img src={cyberSecurity} alt="cyberSecurity"></img>
                     <h4>Cyber Security</h4>
                     <p>
                         Elevate your cybersecurity expertise with our
@@ -23,7 +23,7 @@ const Courses = () => {
                     </p>
                 </div>
                 <div className={styles.box}>
-                    <img src={aiTools} alt="image"></img>
+                    <img src={aiTools} alt="aiTools"></img>
                     <h4>AI Tools</h4>
                     <p>
                         Master the future of technology with our AI Tools
@@ -37,7 +37,7 @@ const Courses = () => {
                     </p>
                 </div>
                 <div className={styles.box}>
-                    <img src={finance} alt="image"></img>
+                    <img src={finance} alt="finance"></img>
                     <h4>Financial Literacy</h4>
                     <p>
                         Navigate the world of finance with confidence through

@@ -9,13 +9,13 @@ const Instructors = () => {
             <h3>Meet our Instructors.</h3>
             <div className={styles.list}>
                 <div className={styles.box}>
-                    <img src={aiToolsInsturctor} alt="image"></img>
+                    <img src={aiToolsInsturctor} alt="aiToolsInsturctor"></img>
                     <h4>Mr. Rohit Jagwani</h4>
                     <p>TTC AI TOOLS EXPERT</p>
                     <p>SOFTWARE ENGINEER WELL VERSED IN AI TOOLS</p>
                 </div>
                 <div className={styles.box}>
-                    <img src={financeInstructor} alt="image"></img>
+                    <img src={financeInstructor} alt="financeInstructor"></img>
                     <h4> CA Rishab Jain</h4>
                     <p>TTC FINANCIAL LITERACY EXPERT.</p>
                     <p>4+ YEARS EXPERIENCE</p>

@@ -10,7 +10,7 @@ const Footer = () => {
             </p>
             <p>
             Call us directly{' '}
-                       <a href="tel:905720073">9057206073</a>  
+                       <a href="tel:9057206073">9057206073</a>  
             </p>
             <p>Mail us{' '}
                        <a href="mailto:turnthecorner.kj@gmail.com">turnthecorner.kj@gmail.com</a></p>

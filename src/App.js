@@ -6,6 +6,7 @@ import Testimonials from "./components/Testimonials.jsx";
 import Footer from "./components/Footer.jsx";
 import Instructors from "./components/Instructors.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Director from "./components/Director.jsx";
 function App() {
     return (
         <div className={styles.app}>
@@ -14,6 +15,7 @@ function App() {
             <About />
             <Courses />
             <Testimonials />
+            <Director />
             <Instructors />
             <Footer />
         </div>

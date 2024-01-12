@@ -11,6 +11,7 @@ const Navbar = () => {
                 <a href="#about">About</a>
                 <a href="#courses">Courses</a>
                 <a href="#testimonials">Testimonials</a>
+                <a href="#director">Director</a>
                 <a href="#instructors">Instructors</a>
             </div>
             <div
@@ -20,6 +21,7 @@ const Navbar = () => {
                 <a href="#about">About</a>
                 <a href="#courses">Courses</a>
                 <a href="#testimonials">Testimonials</a>
+                <a href="#director">Director</a>
                 <a href="#instructors">Instructors</a>
             </div>
             <div className={styles.burgur} onClick={() => setHide(!hide)}>
